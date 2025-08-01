@@ -58,6 +58,22 @@ footer{
     padding: 20px;
     background-color: #ffffff;
     text-decoration: none;
+    
+    a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #818894;
+}
+
+a:hover {
+  color: #2d2d2e;
+}
+
+a:active {
+  color: #4d006e;
+}
     font-family: Helvetica, Sans-serif;
     font-weight: Bold;
     font-size: 20px;
