@@ -6,6 +6,7 @@
 <style>
 
     form, h2 {
+	margin-right: 70%;
         width: 28%;
         font-family: Helvetica, Sans-serif;
         font-weight: Bold;
@@ -14,7 +15,7 @@
         background-color: #000000;
     }
     
-    input[type=text], [type=email] {
+    input[type=text] {
     margin: auto;
     width: 80%;
     padding: 12px 20px;
@@ -25,11 +26,29 @@
     outline: none;
 }
 
-input[type=text], [type=email] :focus {
+input[type=text] :focus {
   background-color: #ffffff;
   color: #000000;
   font-family: Helvetica, Sans-serif;
 }
+
+input[type=email] {
+    margin: auto;
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: Helvetica, Sans-serif;
+    outline: none;
+}
+
+input[type=email] :focus {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Helvetica, Sans-serif;
+}
+	
 textarea {
   width: 80%;
   height: 150px;
@@ -128,6 +147,11 @@ textarea {
   user-select: none;
 }
 
+div {
+  width: 300px;
+  margin: auto;
+  background-color: white;
+
 .container1 input {
   position: absolute;
   opacity: 0;
@@ -175,6 +199,7 @@ textarea {
   transform: rotate(45deg);
 }
 }
+}
 </style>
 </head>
 
@@ -208,7 +233,7 @@ textarea {
 </label>
     <input type="submit" value="Submit">
 </form>
-    
+<div>    
 <table>
 <center>
  <tr>
@@ -256,9 +281,11 @@ textarea {
  </tr>
 </table> 
 </center>
+</div>
 </br>  
 
 <a href="index.html">Home</a>
 </body>
 </html>
+
 
